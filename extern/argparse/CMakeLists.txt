@@ -1,0 +1,4 @@
+add_library(argparse INTERFACE IMPORTED GLOBAL)
+
+set_target_properties(argparse PROPERTIES
+	INTERFACE_INCLUDE_DIRECTORIES "${CMAKE_CURRENT_SOURCE_DIR}/include")
